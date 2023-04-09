@@ -17,7 +17,8 @@ namespace SalesAppSystem.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Aplicativo de Controle de Vendas.";
+            ViewData["author"] = "Autor: Cleison da Silva Nunes";
 
             return View();
         }
