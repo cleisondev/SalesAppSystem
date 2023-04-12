@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace SalesAppSystem.Migrations
 {
     public partial class otherEntities : Migration
-    {
+    {             
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(

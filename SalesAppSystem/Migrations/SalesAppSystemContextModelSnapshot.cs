@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SalesAppSystem.Data;
+using SalesAppSystem.Models;
 
 namespace SalesAppSystem.Migrations
 {
