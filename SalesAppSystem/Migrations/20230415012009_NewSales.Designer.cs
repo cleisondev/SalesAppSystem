@@ -2,15 +2,17 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SalesAppSystem.Models;
 
 namespace SalesAppSystem.Migrations
 {
     [DbContext(typeof(SalesAppSystemContext))]
-    partial class SalesAppSystemContextModelSnapshot : ModelSnapshot
+    [Migration("20230415012009_NewSales")]
+    partial class NewSales
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

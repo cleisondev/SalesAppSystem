@@ -18,7 +18,7 @@ namespace SalesAppSystem.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Aplicativo de Controle de Vendas.";
+            ViewData["Message"] = "Este é um Sistema de gerenciamento e consulta de vendas, feito em ASP.Net Core MVC e Mysql. Esse sistema permite a criação de departamentos, novos vendedores, consultas simples por data e consultas agrupando departamentos por data";
             ViewData["author"] = "Autor: Cleison da Silva Nunes";
 
             return View();

@@ -5,6 +5,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Migrations\20230415011052_NewSales.cs" />
+    <Compile Remove="Migrations\20230415011052_NewSales.Designer.cs" />
+    <Compile Remove="Migrations\20230415011238_NewSales.cs" />
+    <Compile Remove="Migrations\20230415011238_NewSales.Designer.cs" />
+    <Compile Remove="Migrations\20230415011625_NewSales.cs" />
+    <Compile Remove="Migrations\20230415011625_NewSales.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore" Version="2.1.7" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.1.3" />

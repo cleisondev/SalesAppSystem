@@ -66,6 +66,37 @@ namespace SalesAppSystem.Data
             SalesRecord r29 = new SalesRecord(29, new DateTime(2018, 10, 23), 12000.0, SaleStatus.Billed, s5);
             SalesRecord r30 = new SalesRecord(30, new DateTime(2018, 10, 12), 5000.0, SaleStatus.Billed, s2);
 
+            SalesRecord a1 = new SalesRecord(31, new DateTime(2023, 02, 25), 11000.0, SaleStatus.Billed, s1);
+            SalesRecord a2 = new SalesRecord(32, new DateTime(2023, 02, 4), 7000.0, SaleStatus.Billed, s5);
+            SalesRecord a3 = new SalesRecord(33, new DateTime(2023, 02, 13), 4000.0, SaleStatus.Canceled, s4);
+            SalesRecord a4 = new SalesRecord(34, new DateTime(2023, 02, 1), 8000.0, SaleStatus.Billed, s1);
+            SalesRecord a5 = new SalesRecord(35, new DateTime(2023, 02, 21), 3000.0, SaleStatus.Billed, s3);
+            SalesRecord a6 = new SalesRecord(36, new DateTime(2023, 02, 15), 2000.0, SaleStatus.Billed, s1);
+            SalesRecord a7 = new SalesRecord(37, new DateTime(2023, 02, 28), 13000.0, SaleStatus.Billed, s2);
+            SalesRecord a8 = new SalesRecord(38, new DateTime(2023, 02, 11), 4000.0, SaleStatus.Billed, s4);
+            SalesRecord a9 = new SalesRecord(39, new DateTime(2023, 03, 14), 11000.0, SaleStatus.Pending, s6);
+            SalesRecord a10 = new SalesRecord(40, new DateTime(2023, 03, 7), 9000.0, SaleStatus.Billed, s6);
+            SalesRecord a11 = new SalesRecord(59, new DateTime(2023, 03, 13), 6000.0, SaleStatus.Billed, s2);
+            SalesRecord a12 = new SalesRecord(41, new DateTime(2023, 03, 25), 7000.0, SaleStatus.Pending, s3);
+            SalesRecord a13 = new SalesRecord(42, new DateTime(2023, 04, 29), 10000.0, SaleStatus.Billed, s4);
+            SalesRecord a14 = new SalesRecord(43, new DateTime(2023, 04, 4), 3000.0, SaleStatus.Billed, s5);
+            SalesRecord a15 = new SalesRecord(44, new DateTime(2023, 04, 12), 4000.0, SaleStatus.Billed, s1);
+            SalesRecord a16 = new SalesRecord(45, new DateTime(2023, 04, 5), 2000.0, SaleStatus.Billed, s4);
+            SalesRecord a17 = new SalesRecord(46, new DateTime(2023, 04, 1), 12000.0, SaleStatus.Billed, s1);
+            SalesRecord a18 = new SalesRecord(47, new DateTime(2023, 04, 24), 6000.0, SaleStatus.Billed, s3);
+            SalesRecord a19 = new SalesRecord(48, new DateTime(2023, 06, 22), 8000.0, SaleStatus.Billed, s5);
+            SalesRecord a20 = new SalesRecord(49, new DateTime(2023, 06, 15), 8000.0, SaleStatus.Billed, s6);
+            SalesRecord a21 = new SalesRecord(50, new DateTime(2023, 06, 17), 9000.0, SaleStatus.Billed, s2);
+            SalesRecord a22 = new SalesRecord(60, new DateTime(2023, 06, 24), 4000.0, SaleStatus.Billed, s4);
+            SalesRecord a23 = new SalesRecord(51, new DateTime(2023, 06, 19), 11000.0, SaleStatus.Canceled, s2);
+            SalesRecord a24 = new SalesRecord(52, new DateTime(2023, 10, 12), 8000.0, SaleStatus.Billed, s5);
+            SalesRecord a25 = new SalesRecord(53, new DateTime(2023, 10, 31), 7000.0, SaleStatus.Billed, s3);
+            SalesRecord a26 = new SalesRecord(54, new DateTime(2023, 07, 6), 5000.0, SaleStatus.Billed, s4);
+            SalesRecord a27 = new SalesRecord(55, new DateTime(2023, 07, 13), 9000.0, SaleStatus.Pending, s1);
+            SalesRecord a28 = new SalesRecord(56, new DateTime(2023, 10, 7), 4000.0, SaleStatus.Billed, s3);
+            SalesRecord a29 = new SalesRecord(57, new DateTime(2023, 10, 23), 12000.0, SaleStatus.Billed, s5);
+            SalesRecord a30 = new SalesRecord(58, new DateTime(2023, 11, 12), 5000.0, SaleStatus.Billed, s2);
+
             _context.Department.AddRange(d1, d2, d3, d4);
             _context.Seller.AddRange(s1, s2, s3, s4, s5, s6);
             _context.SalesRecord.AddRange(
@@ -98,7 +129,37 @@ namespace SalesAppSystem.Data
                 r27,
                 r28,
                 r29,
-                r30
+                r30,
+                a1,
+                a2,
+                a3,
+                a4,
+                a5,
+                a6,
+                a7,
+                a8,
+                a9,
+                a10,
+                a11,
+                a12,
+                a13,
+                a14,
+                a15,
+                a16,
+                a17,
+                a18,
+                a19,
+                a20,
+                a21,
+                a22,
+                a23,
+                a24,
+                a25,
+                a26,
+                a27,
+                a28,
+                a29,
+                a30
                 );
 
             _context.SaveChanges();
